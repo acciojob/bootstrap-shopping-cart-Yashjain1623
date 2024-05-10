@@ -1,77 +1,155 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
+ 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Shopping Cart</title>
-  <!-- Bootstrap CSS -->
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
-  <style>
-    .headings {
-      color: #3b99e0;
-    }
-    .summary {
-      border-top: 2px solid #5ea4f3;
-      background-color: #f7fbff;
-      padding: 20px;
-      border-bottom: 2px solid #5ea4f3;
-    }
-    .block-heading {
-      text-align: center;
-    }
-    .product {
-      margin-bottom: 20px;
-    }
-  </style>
+	<title>Shopping Cart</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link href=" https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
 </head>
+ 
 <body>
-
-  <div class="container">
-	  <h2 class="block-heading headings">Shopping Cart</h2>
-    <div class="row">
-      <div class="col-lg-8">
-        
-		  <p class="text-center text-secondary block-heading ">The customer is very important the customer will be followed by customer . now , as an urn i have no right to be in the possession of property</p>
-        <div class="product">
-          <h4>Product 1</h4>
-          <div class="row">
-            <div class="col-md-4 my-4 d-flex">
-              <img style="height:80px; width:60px" src="https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_UF1000,1000_QL80_.jpg" class="img-fluid" alt="Product 1">
-<h6 class="mx-5 text-primary">
-    <a href="#">i am very sorry</a>
-    <p class="text-secondary text-small my-2 ">display:5inches</p>
-</h6>
-				
-				
+	<main class="page">
+		<section class="shopping-cart dark">
+			<div class="container">
+				<div class="block-heading">
+					<h2>Shopping Cart</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quam urna, dignissim nec auctor in,
+						mattis vitae leo.</p>
+				</div>
+				<div class="content">
+					<div class="row">
+						<div class="col-md-12 col-lg-8">
+							<div class="items">
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image"
+												src="https://cdn.shopify.com/s/files/1/2537/3132/products/f0308ed2-8bbc-4563-a195-8475850d1d3d.jpg?v=1621771894">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Lorem Ipsum dolor</a>
+															<div class="product-info">
+																<div>Display: <span class="value">5 inch</span></div>
+																<div>RAM: <span class="value">4GB</span></div>
+																<div>Memory: <span class="value">32GB</span></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantity:</label>
+														<input id="quantity" type="number" value="1"
+															class="form-control quantity-input">
+													</div>
+													<div class="col-md-3 price">
+														<span>$120</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image"
+												src="https://cdn.shopify.com/s/files/1/2537/3132/products/f0308ed2-8bbc-4563-a195-8475850d1d3d.jpg?v=1621771894">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Lorem Ipsum dolor</a>
+															<div class="product-info">
+																<div>Display: <span class="value">5 inch</span></div>
+																<div>RAM: <span class="value">4GB</span></div>
+																<div>Memory: <span class="value">32GB</span></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantity:</label>
+														<input id="quantity" type="number" value="1"
+															class="form-control quantity-input">
+													</div>
+													<div class="col-md-3 price">
+														<span>$120</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="product">
+									<div class="row">
+										<div class="col-md-3">
+											<img class="img-fluid mx-auto d-block image"
+												src="https://cdn.shopify.com/s/files/1/2537/3132/products/f0308ed2-8bbc-4563-a195-8475850d1d3d.jpg?v=1621771894">
+										</div>
+										<div class="col-md-8">
+											<div class="info">
+												<div class="row">
+													<div class="col-md-5 product-name">
+														<div class="product-name">
+															<a href="#">Lorem Ipsum dolor</a>
+															<div class="product-info">
+																<div>Display: <span class="value">5 inch</span></div>
+																<div>RAM: <span class="value">4GB</span></div>
+																<div>Memory: <span class="value">32GB</span></div>
+															</div>
+														</div>
+													</div>
+													<div class="col-md-4 quantity">
+														<label for="quantity">Quantity:</label>
+														<input id="quantity" type="number" value="1"
+															class="form-control quantity-input">
+													</div>
+													<div class="col-md-3 price">
+														<span>$120</span>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-12 col-lg-4">
+							<div class="summary">
+								<h3>Summary</h3>
+								<div class="summary-item"><span class="text">Subtotal</span><span
+										class="price">$360</span></div>
+								<div class="summary-item"><span class="text">Discount</span><span
+										class="price">$0</span></div>
+								<div class="summary-item"><span class="text">Shipping</span><span
+										class="price">$0</span></div>
+								<div class="summary-item"><span class="text">Total</span><span class="price">$360</span>
+								</div>
+								<button type="button" class="btn btn-primary btn-lg btn-block">Checkout</button>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
-            <div class="col-md-4 my-4 d-flex">
-  <img style="height:80px; width:60px" src="https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_UF1000,1000_QL80_.jpg" class="img-fluid" alt="Product 1">
-  <h6 class="mx-5 text-primary">
-    <a href="#">i am very sorry</a> <!-- This is the anchor element -->
-    <p class="text-secondary text-small my-2 ">display:5inches</p>
-  </h6>
-</div>
-           <div class="col-md-4 my-4 d-flex">
-  <img style="height:80px; width:60px" src="https://m.media-amazon.com/images/I/71v2jVh6nIL._AC_UF1000,1000_QL80_.jpg" class="img-fluid" alt="Product 1">
-  <h6 class="mx-5 text-primary">
-    <a href="#">i am very sorry</a> <!-- This is the anchor element -->
-    <p class="text-secondary text-small my-2 ">display:5inches</p>
-  </h6>
-</div>
-          </div>
-        </div>
-        
-      <div class="col-lg-4">
-        <div class="summary">
-          <h4>Summary</h4>
-          <p>Total: $100</p>
-          <button class="btn btn-primary">Checkout</button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Bootstrap JS Bundle (Popper included) -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+		</section>
+	</main>
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+ 
 </html>
+ 
+ 
+ 
+
+ 
+ 
+ 
